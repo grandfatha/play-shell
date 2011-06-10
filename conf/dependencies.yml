@@ -1,0 +1,4 @@
+self: play -> play-shell 0.1
+
+require:
+    - play

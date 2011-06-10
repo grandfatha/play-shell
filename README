@@ -1,0 +1,21 @@
+A CLI for Play-Framework apps based on the Groovysh.
+
+To use:
+
+1) clone the repo
+2) add the dependency to your app, e.g. add the following to your dependencies.yml file
+
+require:
+    - play
+    - play-shell -> play-shell
+
+repositories: 
+    - local-modules: 
+        type: local 
+        artifact: <absolute-path-to-your-git-clone>/[module] 
+        contains: 
+            - play-shell
+
+3) Point your Terminal to your app and run 'play shell'
+4) ???
+5) Profit!
