@@ -1,2 +1,6 @@
 *.pyc
 eclipse/**
+.settings/**
+.classpath
+.project
+.pydevproject

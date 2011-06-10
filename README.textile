@@ -7,6 +7,9 @@ A fun-side-project of mine turned out to be a CLI for Play-Framework apps based 
 h2. Usage
 
 1. clone the repo
+
+bc. clone git://github.com/grandfatha/play-shell.git
+
 2. add the dependency to your app, e.g. add the following to your dependencies.yml file
 
 bc. require:
@@ -21,3 +24,4 @@ bc. repositories:
             - play-shell
 
 3. Point your Terminal to your app and run 'play shell'
+4. Have fun!
