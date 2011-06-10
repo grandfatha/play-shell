@@ -10,7 +10,7 @@ h2. Usage
 
 bc. git clone git://github.com/grandfatha/play-shell.git
 
-2. add the dependency to your app, e.g. add the following to your dependencies.yml file
+2. add the module-dependency to your app, e.g., add the following to your dependencies.yml file
 
 bc. require:
     - play
@@ -19,7 +19,7 @@ bc. require:
 bc. repositories: 
     - local-modules: 
         type: local 
-        artifact: <absolute-path-to-your-git-clone>/[module] 
+        artifact: <absolute-path-to-your-cloned-git-repo>/[module] 
         contains: 
             - play-shell
 
