@@ -2,6 +2,15 @@ h1. play-shell
 
 A fun-side-project of mine turned out to be a CLI for Play-Framework apps based on the Groovysh.
 
+Lets say you have a model called Team:
+
+bc. @Entity
+public class Team extends Model {
+	public String name;
+}
+
+The play-shell lets you interact with your models just like in regular play code:
+
 !https://github.com/grandfatha/play-shell/raw/master/doc/img/play-shell.png!
 
 h2. Usage
